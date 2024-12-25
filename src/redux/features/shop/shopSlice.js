@@ -31,7 +31,7 @@ const shopSlice = createSlice({
   },
 });
 
-const { setCategories, setProducts, setChecked, setRadio, setSelectedBrand } =
+export const { setCategories, setProducts, setChecked, setRadio, setSelectedBrand } =
   shopSlice.actions;
 
 export default shopSlice.reducer;
